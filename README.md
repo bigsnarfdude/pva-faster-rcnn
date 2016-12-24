@@ -56,6 +56,13 @@ If you want to cite this work in your publication:
     make -j8 && make pycaffe
     ```
 
+    ```
+    mkdir build
+    cd build
+    cmake ..
+    make all
+    ```
+    
 4. Download PVANet caffemodels
     ```Shell
     cd $FRCN_ROOT
